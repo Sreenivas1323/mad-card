@@ -7,14 +7,16 @@ body {
   	color: #222;
 }
 
+
+
 label {
     -webkit-perspective: 1000px;
     perspective: 1000px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     display: block;
-    width: 532px;
-    height: 400px;
+    width: 500px;
+    height: 333.3px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -38,7 +40,7 @@ label {
         position: absolute;
         height: 100%;
         width: 100%;
-        background: #FFF;
+        background-image: url(./Front.jpg);
         text-align: center;
         line-height: 200px;
         -webkit-backface-visibility: hidden;
@@ -47,7 +49,7 @@ label {
     }
 
     .card .back {
-        background: #222;
+        background-image: url(./back.jpg);
         color: #FFF;
         -webkit-transform: rotateX(180deg);
         transform: rotateX(180deg);
